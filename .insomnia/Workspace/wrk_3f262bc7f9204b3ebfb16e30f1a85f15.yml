@@ -1,0 +1,8 @@
+_id: wrk_3f262bc7f9204b3ebfb16e30f1a85f15
+type: Workspace
+parentId: null
+modified: 1619714231187
+created: 1614284679095
+name: api-auth 1.0.0
+description: Api de autorização do usuário
+scope: spec

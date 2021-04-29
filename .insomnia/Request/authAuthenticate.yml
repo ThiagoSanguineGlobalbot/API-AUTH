@@ -3,7 +3,7 @@ type: Request
 parentId: fld_wrk_3f262bc7f9204b3ebfb16e30f1a85f1566a36e77
 modified: 1619715865023
 created: 1614955558766
-url: "{{ base_url }}/auth/authenticate"
+url: "https://auth.globalbot.ai/auth/authenticate"
 name: Autentificação
 description: Autentificação
 method: POST
@@ -12,9 +12,7 @@ body:
   text: |-
     {
       "email": "teste@globalbot.com.br",
-      "password": "senha",
-      "userAgent": "string",
-      "userPlatform": []
+      "password": "senha"
     }
 parameters: []
 headers:

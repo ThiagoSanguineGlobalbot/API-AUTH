@@ -1,0 +1,32 @@
+_id: authAuthenticate
+type: Request
+parentId: fld_wrk_3f262bc7f9204b3ebfb16e30f1a85f1566a36e77
+modified: 1619715865023
+created: 1614955558766
+url: "{{ base_url }}/auth/authenticate"
+name: Autentificação
+description: Autentificação
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "teste@globalbot.com.br",
+      "password": "senha",
+      "userAgent": "string",
+      "userPlatform": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1614955558766
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
